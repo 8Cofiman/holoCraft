@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог — HoloCraft</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <span class="logo-glow">HOLO</span>CRAFT
+                </a>
+                
+                <nav class="nav">
+                    <a href="index.html" class="nav-link">Главная</a>
+                    <a href="catalog.html" class="nav-link active">Каталог</a>
+                </nav>
+
+                <div class="burger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="mobile-menu">
+            <a href="index.html" class="nav-link">Главная</a>
+            <a href="catalog.html" class="nav-link active">Каталог</a>
+        </div>
+    </header>
+
+    <main class="catalog-page">
+        <div class="container">
+            <div class="section-header">
+                <h1>Каталог проектов и услуг</h1>
+                <div class="glow-line"></div>
+            </div>
+
+            <!-- FILTERS -->
+            <div class="filters">
+                <button class="filter-btn active" data-category="all">Все</button>
+                <button class="filter-btn" data-category="project">Проекты</button>
+                <button class="filter-btn" data-category="service">Услуги</button>
+                <button class="filter-btn" data-category="equipment">Оборудование</button>
+            </div>
+
+            <!-- CARDS GRID -->
+            <div class="cards-grid" id="cards-grid">
+                <!-- Cards render -->
+            </div>
+        </div>
+    </main>
+
+    <!-- MODAL -->
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close">&times;</button>
+            <div class="modal-image" id="modal-image"></div>
+            <div class="modal-info">
+                <span class="modal-category" id="modal-category"></span>
+                <h2 id="modal-title"></h2>
+                <p id="modal-desc"></p>
+                <div class="modal-price" id="modal-price"></div>
+                <button class="btn btn-primary" style="width: 100%; margin-top: 20px;">Заказать похожий проект</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <div class="logo footer-logo">
+                        <span class="logo-glow">HOLO</span>CRAFT
+                    </div>
+                    <p>Студия голографического дизайна</p>
+                </div>
+                <div>
+                    <h4>Контакты</h4>
+                    <p><i class="fas fa-phone"></i> +7 (999) 123-45-67</p>
+                    <p><i class="fas fa-envelope"></i> hello@holocraft.ru</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Москва, ул. Пресненская наб., 12</p>
+                </div>
+                <div>
+                    <h4>Мы в соцсетях</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Telegram"><i class="fab fa-telegram-plane"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="VK"><i class="fab fa-vk"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                © 2026 HoloCraft Studio. Все права защищены.
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
