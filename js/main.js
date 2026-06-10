@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
       title: "Голографическая сцена для концерта",
       category: "project",
       categoryName: "Проект",
-      img: "../images/1.jpg",
+      img: "./images/1.jpg",
       desc: "Масштабная голографическая инсталляция для живого выступления.",
       price: "от 2 800 000 ₽",
       fullDesc: "Полноценная голографическая сцена 8×5 метров с интерактивным управлением и синхронизацией со световым шоу."
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
       title: "AR-гид по музею",
       category: "service",
       categoryName: "Услуга",
-      img: "../images/2.jpg",
+      img: "./images/2.jpg",
       desc: "Приложение дополненной реальности с голографическими экскурсоводами.",
       price: "от 450 000 ₽",
       fullDesc: "Мобильное приложение, которое превращает экспонаты в живые голограммы."
@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
       title: "Голографический проектор HoloBeam Pro",
       category: "equipment",
       categoryName: "Оборудование",
-      img: "../images/3.jpg",
+      img: "./images/3.jpg",
       desc: "Профессиональный голографический проектор 4K.",
       price: "1 250 000 ₽",
       fullDesc: "Модель с углом обзора 180° и поддержкой реального времени."
@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
       title: "Инсталляция «Космический портал»",
       category: "project",
       categoryName: "Проект",
-      img: "../images/4.jpg",
+      img: "./images/4.jpg",
       desc: "Интерактивная голографическая арка в ТЦ.",
       price: "от 1 950 000 ₽",
       fullDesc: "Посетители взаимодействуют с космическими объектами через жесты."
@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
       title: "Создание 3D-голограммы продукта",
       category: "service",
       categoryName: "Услуга",
-      img: "../images/5.jpg",
+      img: "./images/5.jpg",
       desc: "Голографическая визуализация товаров.",
       price: "от 120 000 ₽",
       fullDesc: "Полный цикл создания высококачественной голограммы продукта."
@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
       title: "Набор мини-проекторов HoloMini",
       category: "equipment",
       categoryName: "Оборудование",
-      img: "../images/6.jpg",
+      img: "./images/6.jpg",
       desc: "Компактные проекторы для дома и офиса.",
       price: "от 89 000 ₽",
       fullDesc: "Серия из 4 мини-проекторов с синхронизацией."
